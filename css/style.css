@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: #232324;
+}
+.block{
+    margin-left:50px ;
+    width: 320px;
+    height: 220px;
+    background: #33334d;
+    border: 2px solid #0000ff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+    transition: 1s;
+}
+.block h2{
+    color: #668cff;
+    font-size: 1.4em;
+}
+.block p{
+    color: white;
+    font-size: 1.1em;
+}
